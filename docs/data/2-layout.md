@@ -31,6 +31,7 @@ The order encoding is a generalized form of any outgoing order to an exchange.
 |Field|Type|Description|Optional?|
 |-----|----|-----------|--------|
 |`exchange_id`|uint16_t|The exchange ID assigned by us.|N|
+|`strategy_id`|uint16_t|The strategy ID submitting the order.|N|
 |`security_id`|uint32_t|The security ID assigned by us.|N|
 |`ts_writev`|uint64_t|The sending timestamp expressed as the number of nanoseconds since the UNIX epoch.|N|
 |`client_oid`|uint64_t|The client order ID provided as an input into the exchange.|N|
