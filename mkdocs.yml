@@ -3,6 +3,9 @@ theme:
   name: material
   palette:
     scheme: slate
-    primary: deep orange
+    primary: green
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
+  text: Sunflower
 markdown_extensions:
   - tables
